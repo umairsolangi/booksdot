@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+.fa-shopping-cart {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+}
+
+.header-logo {
+    padding: 2px;
+    margin-left: 2px;
+    width: 100px;
+}
+
+.navbar {
+    background-color: #02a7e9 !important;
+    padding: 0;
+}
+
+.navbar-brand {
+    position: fixed;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+}
+
+i {
+    font-size: 30px;
+}
+
+.navbar-brand h2, h3 {
+    font-family: 'Acme', sans-serif;
+    color: yellow;
+    margin-left: 80px;
+    padding-top: 10px;
+}
+
+.features {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.free-shipping, .support, .best-quality {
+    color: #02a7e9 !important;
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 4px 4px 5px rgb(157, 233, 247);
+    justify-content: space-around;
+    margin-right: 15px;
+}
+
+.feature-heading {
+    color: #02a7e9;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.features i {
+    margin: 0;
+    font-size: 70px;
+    margin-top: 15px;
+}
+
+@media (max-width:990px) {
+    .free-shipping {
+        width: 30%;
+    }
+    .support {
+        width: 30%;
+    }
+    .best-quality {
+        width: 30%;
+    }
+}
+
+@media (max-width:643px) {
+    .free-shipping {
+        width: 90%;
+    }
+    .support {
+        width: 90%;
+    }
+    .best-quality {
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+.product{
+    margin-top: 50px;
+}
+.card-img-top{
+    width: 120px !important;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn{
+    width: 80%;
+    background-color: #02a7e9;
+}
+.card{
+    margin: 10px;
+}
+.best-seller{
+    color: #02a739;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+}
+.footer{
+    background-color: #242323;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
